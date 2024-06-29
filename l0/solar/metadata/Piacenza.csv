@@ -1,0 +1,41 @@
+# Coding, utf-8
+# File format version, 2
+# Title, CAMS Radiation Service v4.6 all-sky irradiation (derived from satellite data).
+# Content,  A time-series of solar radiation received on horizontal plane and plane always normal to the sun rays at ground level.
+"#           Returns the global, beam and diffuse irradiations integrated over a selected time step,",NA
+#           for a selected location (geostationary satellite coverage) and a selected period.,NA
+# The research leading to these results has received funding from the European Union within the Copernicus programme.,NA
+# Provider, VAISALA with MINES ParisTech (France) and DLR (Germany)
+# More information at, http://www.soda-pro.com/web-services/radiation/cams-radiation-service
+# Date begin (ISO 8601), 2005-01-01T00:00:00.0
+# Date end (ISO 8601), 2024-06-28T00:00:00.0
+"# Latitude (positive North, ISO 19115)", 45.0520
+"# Longitude (positive East, ISO 19115)", 9.6930
+# Altitude (m), 66.00
+# Time reference, Universal time (UT)
+#,NA
+# Encoding partly from D2.8.III.13-14 INSPIRE Data Specification on Atmospheric Conditions and Meteorological Geographical Features - Technical Guidelines (2013-12-10) and CF (Climate and Forecast) metadata (2013-11-11),NA
+# CF Standard Names registry of ObservablePropertyValue,NA
+# http,//cfconventions.org/Data/cf-standard-names/27/build/cf-standard-name-table.html
+# urn,x-inspire:specification:DS-AC-MF:observable-property-name:cf-standard-name:1.6
+# ObservableProperty,NA
+#     basePhenomenon,integral_of_surface_downwelling_shortwave_flux_in_air_sky_wrt_time
+#     uom,Wh m-2 [unit]
+# StatisticalMeasure,NA
+#     statisticalFunction," ""sum"""
+# Summarization (integration) period, 0 year 0 month 1 day 0 h 0 min 0 s
+# noValue, nan
+# File generated on, 2024-06-29
+#,NA
+# Columns,NA
+# 1. Observation period (ISO 8601),NA
+# 2. TOA. Irradiation on horizontal plane at the top of atmosphere (Wh/m2),NA
+# 3. Clear sky GHI. Clear sky global irradiation on horizontal plane at ground level (Wh/m2),NA
+# 4. Clear sky BHI. Clear sky beam irradiation on horizontal plane at ground level (Wh/m2),NA
+# 5. Clear sky DHI. Clear sky diffuse irradiation on horizontal plane at ground level (Wh/m2),NA
+# 6. Clear sky BNI. Clear sky beam irradiation on mobile plane following the sun at normal incidence (Wh/m2),NA
+# 7. GHI. Global irradiation on horizontal plane at ground level (Wh/m2),NA
+# 8. BHI. Beam irradiation on horizontal plane at ground level (Wh/m2),NA
+# 9. DHI. Diffuse irradiation on horizontal plane at ground level (Wh/m2),NA
+#10. BNI. Beam irradiation on mobile plane following the sun at normal incidence (Wh/m2),NA
+#11. Reliability. Proportion of reliable data in the summarization (0-1),NA
